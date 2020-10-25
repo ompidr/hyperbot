@@ -463,16 +463,17 @@ app.get('/docs', (req, res) => {
     }
     
     res.send(`
+    <div id="root"></div>
     <script src="https://unpkg.com/@easychessanimations/foo@1.0.21/lib/fooweb.js"></script>
     <script>
     let docs = JSON.parse(\`${JSON.stringify(docs, null, 2)}\`)
-    let app = div().pad(3).bc("#eff").a(Object.entries(docs).map(entry=>div().fl().a(
-            div().w(300).pad(3).mar(1).bc("#eee").fwb().html(entry[0]),
-            div().w(600).pad(3).mar(1).bc("#ffe").c("#070").html(entry[1])
+    let app = div().w(960).addStyle("boxShadow", "5px 5px #eee").pad(5).addStyle("paddingLeft", "10px").bc("#ccc").a(Object.entries(docs).map(entry=>div().w(950).fl().addStyle("marginTop", "3px").addStyle("marginBottom", "6px").addStyle("boxShadow", "5px 5px #abc").a(
+            div().c("#007").fl().aic().addStyle("minWidth", "300px").pad(3).addStyle("paddingLeft", "10px").mar(1).bc("#eee").fwb().a(div().html(entry[0])),
+            div().addStyle("width", "100%").pad(3).addStyle("paddingLeft", "10px").mar(1).bc("#ffe").c("#070").a(div().html(entry[1]))
         )
     ))
     console.log(app)
-    document.documentElement.appendChild(app.e)
+    document.getElementById("root").appendChild(app.e)
     </script>
     `)
 })
