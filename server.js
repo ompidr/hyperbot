@@ -463,9 +463,16 @@ app.get('/docs', (req, res) => {
     }
     
     res.send(`
+    <script src="https://unpkg.com/@easychessanimations/foo@1.0.21/lib/fooweb.js"></script>
     <script>
-    let docs = \`${JSON.stringify(docs, null, 2)}\`
-    document.write(\`<pre>\${docs}</pre>\`)
+    let docs = JSON.parse(\`${JSON.stringify(docs, null, 2)}\`)
+    let app = div().pad(3).bc("#eff").a(Object.entries(docs).map(entry=>div().fl().a(
+            div().w(300).pad(3).mar(1).bc("#eee").fwb().html(entry[0]),
+            div().w(600).pad(3).mar(1).bc("#ffe").c("#070").html(entry[1])
+        )
+    ))
+    console.log(app)
+    document.documentElement.appendChild(app.e)
     </script>
     `)
 })
