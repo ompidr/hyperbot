@@ -1,0 +1,4 @@
+{
+    "GENERAL_TIMEOUT": "for event streams in seconds ( default : 15 )",
+    "ENGINE_THREADS": "engine Threads option ( default : 1 )"
+}
