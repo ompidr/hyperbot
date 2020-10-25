@@ -44,6 +44,13 @@ const port = process.env.PORT || 3000
 
 const fetch = require('node-fetch')
 
+let docs = null
+fetch(`https://raw.githubusercontent.com/hyperbotauthor/hyperbot/docs/docs.json`).then(response=>response.text().then(content=>{
+    try{
+        docs = JSON.parse(content)        
+    }catch(err){console.log(err)}
+}))
+
 const { streamNdjson } = require('@easychessanimations/fetchutils')
 const lichessUtils = require("@easychessanimations/lichessutils")
 
@@ -447,6 +454,20 @@ function challengeRandomBot(){
 
 app.get('/chr', (req, res) => {
     challengeRandomBot().then(result=>res.send(result))
+})
+
+app.get('/docs', (req, res) => {
+    if(!docs){
+        res.send(`page not ready, try again a little later`)
+        return
+    }
+    
+    res.send(`
+    <script>
+    let docs = \`${JSON.stringify(docs, null, 2)}\`
+    document.write(\`<pre>\${docs}</pre>\`)
+    </script>
+    `)
 })
 
 app.use('/', express.static(__dirname))
