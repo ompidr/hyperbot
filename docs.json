@@ -16,7 +16,7 @@
         {
             "title": "Install the bot locally",
             "paragraphs":[
-                "Open the project's gitpod terminal https://gitpod.io#https://github.com/hyperchessbot/hyperbot",
+                "Open the project's gitpod terminal https://gitpod.io#https://github.com/hyperchessbot/hyperbot , then type",
                 "npm install",                
                 "export TOKEN={BOT API token}",
                 "export BOT_NAME={BOT username}",
