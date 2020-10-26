@@ -1,4 +1,20 @@
 {
+    "sections":{
+        "create":{
+            "title": "Create your own Hyper Bot",
+            "paragraphs":[
+                "Create your own Hyper Bot.",
+                "Join GitHub if you have not already."
+            ]
+        },
+        "feedback":{
+            "title": "Discussion / Feedback",
+            "paragraphs":[
+                "Discuss Hyper Bot on Discord.",
+                "Post issues on GitHub."
+            ]
+        }
+    }
     "envvars": {
         "GENERAL_TIMEOUT": "for event streams in seconds ( default : 15 )",
         "ENGINE_THREADS": "engine Threads option ( default : 1 )",
