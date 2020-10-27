@@ -44,6 +44,8 @@
         "USE_SCALACHESS" : "set it to 'true' to use scalachess library and multi variant engine",
         "ACCEPT_VARIANTS" : "space separated list of variant keys to accept, for other than standard USE_SCALACHESS has to be set to 'true'|'standard atomic horde racingKings'",
         "DISABLE_RATED" : "set it to 'true' to reject rated challenges",
-        "DISABLE_CASUAL" : "set it to 'true' to reject casual challenges"
+        "DISABLE_CASUAL" : "set it to 'true' to reject casual challenges",
+        "DISABLE_BOT" : "set it to 'true' to reject bot challenges",
+        "DISABLE_HUMAN" : "set it to 'true' to reject human challenges"
     }
 }
