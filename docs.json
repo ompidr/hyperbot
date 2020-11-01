@@ -14,6 +14,13 @@
             ]
         },
         {
+            "title": "Upgrade to bot and play games in your browser",
+            "paragraphs":[
+                "To upgrade an account, that has played no games yet, to bot, and to make this bot accept challenges and play games, visit https://hypereasy.herokuapp.com .",
+                "For detailed instructions see https://lichess.org/forum/off-topic-discussion/hyper-easy-all-variants-lichess-bot-running-in-your-browser#1 ."
+            ]
+        },
+        {
             "title": "Install the bot locally",
             "paragraphs":[
                 "Open the project's gitpod terminal https://gitpod.io#https://github.com/hyperchessbot/hyperbot , then type",
