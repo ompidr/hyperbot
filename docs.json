@@ -32,13 +32,13 @@
             ]
         },
         {
-            "title": "Use Lc0 on a Windows machine",
+            "title": "Install bot on Windows ( runs Lc0 )",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Using-Lc0-on-Windows#to-use-the-lc0-engine-on-a-windows-machine-do-the-following ."
             ]
         },
         {
-            "title": "Install bot on goorm.io",
+            "title": "Install bot on goorm.io ( runs Lc0 )",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Install-bot-on-goorm.io#install-bot-on-goormio ."
             ]
@@ -73,6 +73,7 @@
         "GAME_START_DELAY" : "delay between accepting challenge and starting to play game in seconds ( default : 2 )",
         "CHALLENGE_INTERVAL" : "delay between auto challenge attempts in minutes ( default : 30 )",
         "CHALLENGE_TIMEOUT" : "start attempting auto challenges after being idle for that many munutes ( default : 60 )",
-        "USE_NNUE" : "set it to true to use NNUE for variants other than standard"
+        "USE_NNUE" : "set it to true to use NNUE for variants other than standard",
+        "USE_LC0" : "set it to true to use Lc0 engine, only works with Windows and goorm installation, on Heroku you should not use it or set it to false"
     }
 }
