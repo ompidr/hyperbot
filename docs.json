@@ -1,7 +1,7 @@
 {
     "sections":[
         {
-            "title": "Create your own Hyper Bot",
+            "title": "Create your own permanent Hyper Bot ( runs on Heroku, no Lc0 )",
             "paragraphs":[
                 "If you want to create your own permanent bot, do the following:",
                 "Sign up to GitHub https://github.com/join , if you have not already.",
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "title": "Install the bot locally",
+            "title": "Install bot using Gitpod ( no Lc0 )",
             "paragraphs":[
                 "Open the project's gitpod terminal https://gitpod.io#https://github.com/hyperchessbot/hyperbot , then type",
                 "npm install",                
@@ -87,6 +87,6 @@
         "CHALLENGE_INTERVAL" : "delay between auto challenge attempts in minutes ( default : 30 )",
         "CHALLENGE_TIMEOUT" : "start attempting auto challenges after being idle for that many munutes ( default : 60 )",
         "USE_NNUE" : "set it to true to use NNUE for variants other than standard",
-        "USE_LC0" : "set it to true to use Lc0 engine, only works with Windows and goorm installation, on Heroku you should not use it or set it to false"
+        "USE_LC0" : "set it to true to use Lc0 engine, only works with Windows and goorm installation, on Heroku and Gitpod you should not use it or set it to false"
     }
 }
