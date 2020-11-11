@@ -44,6 +44,12 @@
             ]
         },
         {
+            "title": "Explanation of files",
+            "paragraphs":[
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Explanation-of-files ."
+            ]
+        },
+        {
             "title": "Discussion / Feedback",
             "paragraphs":[
                 "Join the HyperChessBot team https://lichess.org/team/hyperchessbot-team .",
