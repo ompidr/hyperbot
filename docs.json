@@ -38,6 +38,12 @@
             ]
         },
         {
+            "title": "Install bot on goorm.io",
+            "paragraphs":[
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Install-bot-on-goorm.io#install-bot-on-goormio ."
+            ]
+        },
+        {
             "title": "Discussion / Feedback",
             "paragraphs":[
                 "Join the HyperChessBot team https://lichess.org/team/hyperchessbot-team .",
