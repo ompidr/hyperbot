@@ -51,6 +51,12 @@
             ]
         },
         {
+            "title": "Update to latest version",
+            "paragraphs":[
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Update-to-latest-version#update-to-latest-version ."
+            ]
+        },
+        {
             "title": "Explanation of files",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Explanation-of-files#git ."
