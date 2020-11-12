@@ -22,13 +22,9 @@
             ]
         },
         {
-            "title": "Install bot using Gitpod ( no Lc0 )",
+            "title": "Update Heroku app to latest version using Gitpod",
             "paragraphs":[
-                "Open the project's gitpod terminal https://gitpod.io#https://github.com/hyperchessbot/hyperbot , then type",
-                "npm install",                
-                "export TOKEN={BOT API token}",
-                "export BOT_NAME={BOT username}",
-                "node server.js"
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Update-Heroku-app-to-latest-version-using-Gitpod#update-heroku-app-to-latest-version-using-gitpod ."
             ]
         },
         {
@@ -51,7 +47,7 @@
             ]
         },
         {
-            "title": "Update to latest version",
+            "title": "Update to latest version on Windows / goorm",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Update-to-latest-version#update-to-latest-version ."
             ]
