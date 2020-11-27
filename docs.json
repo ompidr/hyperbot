@@ -31,6 +31,12 @@
             ]
         },
         {
+            "title": "Build external multi game PGN file with MongoDb book builder ( version 2 )",
+            "paragraphs":[
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Build-book-from-external-multi-game-PGN-file ."
+            ]
+        },
+        {
             "title": "Install bot on Windows ( runs Lc0 )",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Install-bot-on-Windows-(-runs-Lc0-)#install-bot-on-windows--runs-lc0- ."
