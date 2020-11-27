@@ -31,6 +31,12 @@
             ]
         },
         {
+            "title": "Creating a MongoDb account",
+            "paragraphs":[
+                "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Creating-a-MongoDb-account ."
+            ]
+        },
+        {
             "title": "Build external multi game PGN file with MongoDb book builder ( version 2 )",
             "paragraphs":[
                 "Refer to this Wiki https://github.com/hyperchessbot/hyperbot/wiki/Build-book-from-external-multi-game-PGN-file ."
