@@ -131,6 +131,7 @@
         "GOOD_LUCK_MESSAGE" : "game chat good luck message ( delay from game start : 4 seconds , default : 'Good luck !' )",
         "GOOD_GAME_MESSAGE" : "game chat good game message ( delay from game end : 2 seconds , default : 'Good game !' )",
         "DISABLE_SYZYGY" : "set it to 'true' to disable using syzygy tablebases, note that syzygy tablebases are always disabled when USE_LC0 is set to 'true', syzygy tablebases are only installed for deployment on Heroku",        
-        "APP_NAME" : "Heroku app name ( necessary for interactive viewing of MongoDb book )"
+        "APP_NAME" : "Heroku app name ( necessary for interactive viewing of MongoDb book )",
+        "ABORT_AFTER" : "abort game after that many seconds if the opponent fails to make their opening move ( default : 120 )"
     }
 }
