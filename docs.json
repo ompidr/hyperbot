@@ -103,6 +103,7 @@
         "CORRESPONDENCE_THINKING_TIME" : "think in correspondence as if the bot had that many seconds left on its clock ( default : 120 ), the actual thinking time will be decided by the engine",
         "MONGODB_URI" : "connect URI of your MongoDb admin user ( only the host, no slash after the host, do database specified, no query string ), if defined, your latest games or games downloaded from an url ( version 2 only ) will be added to the database on every startup, by default this config var is not defined",
         "USE_MONGO_BOOK" : "set it to 'true' to use the MongoDb book specified by MONGODB_URI",        
+        "DISABLE_ENGINE_FOR_MONGO" : "set it to 'true' to disable using engine completely when a MongoDb book move is available ( by default the bot may ignore a MongoDb book move at its discretion and use the engine instead for better performance and to allow for more varied play )",
         "MONGO_VERSION" : "MongoDb book builder version, possible values are 1 ( default, builds a book from bot games as downloaded from lichess as JSON ), 2 ( builds a book from bot games as downloaded from lichess as PGN, or from an arbitrary url specified in PGN_URL )",
         "PGN_URL": "url for downloading a multi game PGN file for MongoDb book builder ( version 2 only )",
         "MAX_GAMES" : "maximum number of games to be built by MongoDb book builder",
