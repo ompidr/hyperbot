@@ -103,6 +103,7 @@
         "ENGINE_HASH": "engine Hash uci option in megabytes ( default : 16 )",
         "ENGINE_CONTEMPT": "engine Contempt uci option in centipawns ( default : 24 )",
         "ENGINE_MOVE_OVERHEAD": "engine Move Overhead uci option in milliseconds ( default : 500 )",
+        "ENGINE_SKILL_LEVEL": "engine Skill Level uci option, can be set from 0 to 20 ( default : 20 )",
         "ALLOW_PONDER" : "set it to 'true' to make the bot think on opponent time",
         "BOOK_DEPTH" : "up to how many plies into the game should the bot use the book, choosing too high book depth is running the risk of playing unsound moves ( default : 20 )",
         "BOOK_SPREAD" : "select the move from that many of the top book moves, choosing to high book spread is running the risk of playing unsound moves ( default : 4 )",
